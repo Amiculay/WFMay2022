@@ -1,3 +1,6 @@
 git init
 git remote add origin (repo link)
-
+git add .
+git branch -M Main
+git commit -m 
+git push origin
