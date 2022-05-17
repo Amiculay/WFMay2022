@@ -1,0 +1,19 @@
+.sweden {
+    background-color: rgb(28, 88, 145);
+    width: 460px;
+    height: 230px;
+}
+
+.vertLine {
+    background-color: rgb(219, 219, 46);
+    margin-left: 120px;
+    width: 5%;
+    height: 100%;
+  }
+
+.horizonLine {
+    background-color: rgb(219, 219, 46);
+    margin-top: -120px;
+    width: 100%;
+    height: 10%;
+}
