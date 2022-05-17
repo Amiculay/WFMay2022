@@ -1,0 +1,33 @@
+h1 {
+    color: tomato;
+    background-color: blueviolet;
+}
+
+.red {
+    color: red;
+    text-decoration: line-through;
+}
+
+.green {
+    color: green;
+}
+
+#gold {
+    background-color: gold;
+}
+
+div {
+    background-color: blanchedalmond;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+.parent:hover {
+    color: blue;
+}
+
+.heavy {
+    font-weight: 1000;
+}
