@@ -1,0 +1,55 @@
+.container {
+    width: 650px;
+    background-color: #c2cad0;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+h1, p {
+    text-align: center;
+    color: #0074d9;
+    font-family: monospace;
+}
+
+#rows {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+/* Figured this would be the best approach as row2 only has 2 items, added `flex: auto;` to expand the row evenly */
+#rows .row2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+.row1 {
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.row2 {
+    padding: 10px;
+    background-color: #bb2222;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.row3 {
+    padding: 10px;
+    background-color: #3943cf;
+    border-radius: 25px;
+}
+
+img {
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
