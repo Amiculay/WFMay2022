@@ -1,9 +1,12 @@
 .container {
     width: 650px;
     background-color: #c2cad0;
-    margin: 0px auto;
     padding: 10px;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 h1, p {
@@ -13,39 +16,30 @@ h1, p {
 }
 
 #rows {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-around;
-    flex-wrap: wrap;
     border-radius: 25px;
     margin: 20px;
-}
-
-/* Figured this would be the best approach as row2 only has 2 items, added `flex: auto;` to expand the row evenly */
-#rows .row2 {
-    display: flex;
-    justify-content: space-evenly;
-    flex: auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .row1 {
-    padding: 10px;
     background-color: #000000;
-    border-radius: 25px;
-    margin-bottom: 25px;
 }
 
 .row2 {
-    padding: 10px;
     background-color: #bb2222;
-    border-radius: 25px;
-    margin-bottom: 25px;
 }
 
 .row3 {
-    padding: 10px;
     background-color: #3943cf;
+}
+
+.texture {
+    padding: 10px;
     border-radius: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 img {
