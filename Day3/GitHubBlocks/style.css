@@ -1,7 +1,6 @@
 .container {
     width: 650px;
     background-color: #c2cad0;
-    padding: 10px;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -32,7 +31,6 @@ h1, p {
 }
 
 .texture {
-    padding: 10px;
     border-radius: 25px;
     margin-bottom: 25px;
     display: flex;
