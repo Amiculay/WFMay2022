@@ -4,7 +4,8 @@
 }
 
 .container {
-    width: 1000px;
+    font-family: cursive;
+    width: 750px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@
 
 .top {
     background-color: #3b92a1;
-    height: 150px;
+    height: 100px;
     display: flex;
     position: relative;
 }
@@ -25,16 +26,19 @@
 }
 
 .profilePic {
-    background-color: #466469;
     border-style: solid;
-    border-color: lightgray;
+    border-color: grey;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     position: relative;
+    top: 40px;
+    left: 50px;
 }
 
 .bottom {
+    padding-top: 50px;
+    padding-left: 50px;
     border: solid grey;
     display: flex;
     justify-content: space-evenly;
@@ -42,12 +46,23 @@
     flex-direction: column;
 }
 
-.marker + .gear {
+h1, h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.marker, .gear {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-bottom: 10px;
 }
 
 .marker > img, .gear > img {
-    width: 25px;
+    width: 20px;
 }
