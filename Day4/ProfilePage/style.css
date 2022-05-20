@@ -62,14 +62,13 @@ ul :nth-child(1) {
 .bottomHalf {
     padding: 1% 20%;
     display: flex;
-    align-items: left;
     justify-content: space-between;
 }
 
 /* Usercard */
 
 .left {
-    margin-right: 25;
+    margin-right: 25px;
 }
 
 .userCard {
@@ -107,7 +106,6 @@ ul :nth-child(1) {
     padding-left: 50px;
     border: solid grey;
     display: flex;
-    align-items: left;
     justify-content: space-evenly;
     flex-direction: column;
 }
@@ -146,7 +144,6 @@ ul :nth-child(1) {
     padding: 10px 25px 10px 25px;
     border: solid grey;
     display: flex;
-    align-items: left;
     flex-direction: column;
 }
 
@@ -179,7 +176,7 @@ span {
     gap: 10px;
 }
 
-#border {
+.border {
     background-color: grey;
     width: 54px;
     height: 54px;
@@ -190,18 +187,19 @@ span {
     border-top: none;
 }
 
-#requests {
+.requests {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
+    gap: 10px;
 }
 
 #requestSpacer {
     justify-content: space-between;
 }
 
-#decision :hover {
+.decision > img:hover {
     opacity: 0.5;
     cursor: pointer;
 }
