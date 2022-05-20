@@ -1,0 +1,17 @@
+.container {
+    height: 900px;
+    background-color: red;
+}
+
+.nav {
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.navleft {
+    background-color: blue;
+}
+
+.navright {
+    background-color: blueviolet;
+}
