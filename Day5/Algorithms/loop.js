@@ -47,7 +47,7 @@ console.log("---");
 
 function factorial (num) {
     var product = 1;
-    for(var i = num; i>0; i--) {
+    for (var i = num; i > 0; i--) {
         product *= i;
     }
     return product;
