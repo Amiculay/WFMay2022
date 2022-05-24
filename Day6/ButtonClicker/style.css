@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.nav {
+    height: 50px;
+    margin: 0 auto;
+    padding: 0% 25% 0% 25%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 100px;
+}
+
+button {
+    background-color: rgb(226, 226, 70);
+    padding: 5px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0px 0px;
+    transform: translate3d(2px, 2px, 2px);
+}
+
+#login {
+    width: 100px;
+    background-color:rgb(55, 115, 150);
+    color: white;
+}
+
+.container {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 1%;
+    display: flex;
+}
+
+.definition {
+    margin-bottom: 1%;
+    margin-right: 10px;
+}
+
+.leftContent {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.rightContent {
+    width: 350px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.word {
+    margin-bottom: 10px;
+}
+
+.right {
+    height: 100px;
+    display: inline-block;
+}
+
+#user {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#add {
+    background-color: rgb(77, 170, 77);
+}
+
+span {
+    font-weight: large;
+}
+
+h3 span {
+    font-style: italic;
+}
